@@ -13,9 +13,9 @@ const HeaderOption = ({avatar,Icon,title,onClick}) => {
                 {user?.email[0]}
             </Avatar>
            )}
-           <h3 className="headeroption__title">{title}</h3>
+           <h3 className="headeroption__title">{title}</h3>    
         </div>
     )
 }
-
+ 
 export default HeaderOption;
